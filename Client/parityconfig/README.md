@@ -1,0 +1,2 @@
+# parityconfig
+parity configuration file

@@ -1,0 +1,68 @@
+[parity]
+chain = "genesis.json"
+base_path = "./data"
+[network]
+port = 30300
+id = 13337
+reserved_only = true
+reserved_peers = "./myPrivateNetwork.txt"
+nat = "extip:YOUR External IP Address"
+discovery = true
+allow_ips = "all"
+[rpc]
+port = 8545
+apis = ["web3", "eth", "net", "personal", "parity", "parity_set", "traces", "rpc", "parity_accounts"]
+interface = "0.0.0.0"
+hosts = ["all"]
+[ui]
+port = 8180
+interface = "127.0.0.1"
+[websockets]
+port = 8450
+interface = "0.0.0.0"
+[account]
+password = ["node.pwds"]
+[mining]
+engine_signer="0xb2817345afcd50c00edbb086b81feed4f5442a5d"
+engine_signer="0x32ea766aa8683cb124e9cc242be89095aef8332b"
+engine_signer="0x38d36f36d71ddf8d68b0cf95511a2dd520d9aa6c"
+engine_signer="0xbe60f74ce98b33802cd4e9bc59f4d0fe1b63dab3"
+engine_signer="0xd1b224979114fe538591249abca32652f1846fcc"
+engine_signer="0x4d53c4d93cfc443be6ebea8ee706e3d6805a6648"
+engine_signer="0x29b320ba0c2024f80b6473279563b2d4c3161cde"
+engine_signer="0x4ca1ce9091cebd610e0613d5f7ed2525356b6c17"
+engine_signer="0x3f1c9f4f88573bc95f59abdf1e047f3d1d01ee2a"
+engine_signer="0x6b35c34a1e009664f195a086a76f60beeec06234"
+engine_signer="0xb275efe8a1f0b0c486d6a27ffa220bf641c740d7"
+engine_signer="0x55543ce117de9fd4552b581855e704e2655d7b15"
+engine_signer="0xac7bf073076f0856b0d7302010a8efa8a3c1b774"
+engine_signer="0x36b12684a0dad356635a32180b19be23a90501d5"
+engine_signer="0xfaefe43b57f41593d292b57b4a5f445369b1cccf"
+engine_signer="0x41906fb8e40283c1fe1293c3b22fd8fdea75448f"
+engine_signer="0xc95d40ddb09efe353e15b0e0e771495371b69855"
+engine_signer="0x7238811b595800b55d0ee8c01ce6f56c6d04bbaf"
+engine_signer="0xebba4b4c7485fe1ebdee865970bcaf23c4262b13"
+engine_signer="0x2c2a1a4ae5106504b2ea73f74f1dc22c7fbfc728"
+engine_signer="0x38f5140d847d389fc5cf25b395d554c81d8a8b26"
+engine_signer="0x7e98f69a256e0efb016dd569f5d436fe6bb5896f"
+engine_signer="0x930fd079eba8d40a5680d9d323aa6e832fb081fb"
+engine_signer="0x5f0663ff0af0a0793f7a389e336632d43f73bb5b"
+engine_signer="0x3f0007740971d9f677765be307a081fd2e0fbebf"
+engine_signer="0x72c5c6449e97679e3a9a830c234257ed75a200a8"
+engine_signer="0x5b9b2ebea9ec389fb256a621372001e61382330f"
+engine_signer="0x4a25a412e527843614c88de8f5fa499f134f58bc"
+engine_signer="0xa456df91931a669561ac80203cf6e3c979e6efdb"
+engine_signer="0x125fe636492d566d13e4cbb13dd9b4e2f76b4976"
+engine_signer="0x8b7bd2b9103b57c959807c784566e37af29aa27b"
+engine_signer="0x08158ef87bc97d61194c034f8b5d8f3cb58ca6aa"
+engine_signer="0x06de881d7b5dd45d6361c15c669ef1dd19287e6c"
+engine_signer="0xtestestete"
+engine_signer="0x70b846cd3871a9b6569588cb8e78e69e2b1b4bdd"
+engine_signer = "0x24a34f28a2bf1e28fa0eaa30b3c3769d25cfa0a0"
+usd_per_tx="0"
+reseal_on_txs = "none"
+tx_gas_limit = "9000000"
+tx_queue_size=10000
+gas_floor_target="6700000"
+gas_cap="9000000"
+tx_queue_mem_limit=4
