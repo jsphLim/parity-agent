@@ -1,4 +1,4 @@
 ##### 启动进程
 ```sh
-java -jar music.jar > music.log
+java -jar musicBC.jar > music.log
 ```
